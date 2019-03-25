@@ -1,0 +1,68 @@
+{
+	"users":[
+		{
+			"userName": "susan",
+			"password": "mysecret",
+			"email": "susan@gmail.com",
+			"firstName": "Susan",
+			"lastName": "Ellis",
+			"gender": "f",
+			"personID": "something"
+		},
+		{
+			"userName": "susan2",
+			"password": "mysecret2",
+			"email": "susan@gmail.com2",
+			"firstName": "Susan2",
+			"lastName": "Ellis2",
+			"gender": "m",
+			"personID": "something2"
+		}
+		],
+	"persons":[
+		{
+			"descendant": "susan2",
+			"personID": "7255e93e2",
+			"firstName": "Stuart2",
+			"lastName": "Klocke2",
+			"gender": "f",
+			"father": "7255e93e2",
+			"mother": "f42126c82",
+			"spouse":"f42126c82"
+		},
+		{
+			"descendant": "susan",
+			"personID": "7255e93e",
+			"firstName": "Stuart",
+			"lastName": "Klocke",
+			"gender": "m",
+			"father": "7255e93e",
+			"mother": "f42126c8",
+			"spouse":"f42126c8"
+		}
+	],
+	"events":[
+		{
+			"descendant":"susan",
+			"eventID":"2525",
+			"personID":"1234",
+			"latitude":"4",
+			"longitude":"5",
+			"country":"Iceland",
+			"city":"Akureyri",
+			"eventType":"birth",
+			"year":1912
+		},
+		{
+			"descendant":"susan2",
+			"eventID":"25252",
+			"personID":"12342",
+			"latitude":"42",
+			"longitude":"52",
+			"country":"Iceland2",
+			"city":"Akureyri2",
+			"eventType":"birth2",
+			"year":19122
+		}
+	]
+}
